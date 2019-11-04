@@ -1,0 +1,24 @@
+{
+  "name": "e2e-cypress",
+  "author": {
+    "name": "1st Online Solutions",
+    "email": "office@1stonlinesolutions.com",
+    "url": "https://1stonlinesolutions.com"
+  },
+  "version": "2.0.4.1072",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "e2e:start": "cypress open --env configFile=dev",
+    "e2e:local": "cypress open --env configFile=localhost",
+    "e2e:local:integrate": "cypress open --env integrate=true,configFile=localhost",
+    "e2e:run": "cypress run"
+  },
+  "devDependencies": {
+    "@types/chance": "^1.0.5",
+    "cypress": "3.4.1"
+  },
+  "dependencies": {
+    "chance": "^1.1.3"
+  }
+}

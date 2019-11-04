@@ -1,0 +1,9 @@
+{
+    "chromeWebSecurity": false,
+    "defaultCommandTimeout": 20000,
+    "trashAssetsBeforeRuns": true,
+    "env":{
+        "lastTestVersion":"1.1.2.1044"
+    },
+    "integrationFolder": "./cypress/integration/obf/"
+}

@@ -1,0 +1,42 @@
+{
+    "invalidPostCodes": ["1111111", "000000000000000", "99999999999"],
+    "coveragePostcodes": ["ll11ll", "ll11ii"],
+    "completePostcode": "sw12sw",
+    "queryParams": {
+        "serviceId": 584,
+        "postcode": "sw12sw",
+        "voucher": "obfhelp"
+    },
+    "users":{
+        "user1AddressDefaultData": {
+            "email": "autotestFRONTEND1ADDRESS@autotest.bg",
+            "password": "autotest123"
+        },
+        "user1AddressNoDefaultData": {
+            "email": "autotestFRONTEND1ADDRESSNoDefault@autotest.bg",
+            "password": "autotest123"
+        },
+        "user2AddressDefaultData": {
+            "email": "autotestFRONTEND2ADDRESS@autotest.bg",
+            "password": "autotest123"
+        },
+        "user2AddressNoDefaultData": {
+            "email": "autotestFRONTEND2ADDRESSNoDefault@autotest.bg",
+            "password": "autotest123"
+        },
+        "userData": {
+            "email": "autotestFRONTEND@autotest.bg",
+            "password": "autotest123"
+        }
+    },
+
+    "completeSearchService": "Test form",
+    "payments": {
+        "braintree": {
+            "nameOnCard": "test test",
+            "cardNumber": "4000 0000 0000 1091",
+            "expiry": "0120",
+            "cvv":"100"
+        }
+    }
+}
